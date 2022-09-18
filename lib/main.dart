@@ -15,10 +15,8 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: 'Confetti',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.red,
       ),
-      // home: const Confetti(),
-      // home: const GetConfetti(),
       home:Scaffold(
         appBar: AppBar(
           title: const Text('Confetti Animation'),
