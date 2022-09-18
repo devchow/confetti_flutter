@@ -10,6 +10,7 @@ class GetConfettiController extends GetxController {
   @override
   void onInit() {
     super.onInit();
+    // initialize the confetti controller
     confettiController = ConfettiController();
   }
   //
@@ -20,6 +21,7 @@ class GetConfettiController extends GetxController {
   //
   @override
   void onClose() {
+    // dispose the confetti controller
     confettiController.dispose();
   }
   //
