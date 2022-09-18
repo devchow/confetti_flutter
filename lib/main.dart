@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // GetMaterial app to support Getx routes
     return GetMaterialApp(
       title: 'Confetti',
       theme: ThemeData(
