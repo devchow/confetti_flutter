@@ -31,6 +31,7 @@ class MyApp extends StatelessWidget {
               ElevatedButton(
                 onPressed: () 
                 {
+                  // go to the 1st confetti page
                   Get.to(() => const Confetti());
                 },
                  child: const Text('Confetti', style: TextStyle(fontSize: 20),),
@@ -39,6 +40,7 @@ class MyApp extends StatelessWidget {
               ElevatedButton(
                 onPressed: () 
                 {
+                  // go to the Getx confetti page
                   Get.to(() => const GetConfetti());
                 },
                  child: const Text('Getx Confetti', style: TextStyle(fontSize: 20),),
